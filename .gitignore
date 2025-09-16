@@ -1,0 +1,40 @@
+# Ignore the whole frontend folder
+/frontend
+
+# Ignore environment files in all folders
+**/.env
+**/.env.*
+
+# Ignore Node.js dependencies
+**/node_modules/
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+pnpm-debug.log*
+package-lock.json
+yarn.lock
+pnpm-lock.yaml
+
+# Ignore build outputs
+**/dist/
+**/build/
+
+# React / Next.js cache
+**/.cache/
+*.tsbuildinfo
+**/.next/
+**/out/
+
+# Logs
+logs
+*.log
+*.log.*
+
+# IDE / OS files
+.vscode/
+.idea/
+.DS_Store
+Thumbs.db
+
+# Test coverage
+**/coverage/
